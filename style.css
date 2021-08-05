@@ -4,6 +4,7 @@ body {
     font-size: 15pt;
 }
 .con{
+  background: #fff;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -16,7 +17,10 @@ body {
   margin-bottom: 10px;
 }
 #abc{
-  border: 1px solid #000;
+  border-radius: 19px;
+  background: linear-gradient(145deg, #d1d8e1, #f8ffff);
+  box-shadow: 13px 13px 29px #aeb4bc,
+  -13px -13px 29px #ffffff;
   height: 190px;
   display: flex;
   flex-flow: column;
@@ -29,9 +33,7 @@ button{
   width: 50%;
   align-self: center;
 }
-#nu{
-  font-weight: bold;
-}
-#w , #r{
-  display: none;
+input{
+  background: #DEDEDE17;
+ 
 }
