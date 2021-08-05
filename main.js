@@ -55,8 +55,7 @@ if (regx.test(number)) {
 });
 }else{
   var data = cok.split(',');
-  alert(data);
-  con.innerHTML=`<h2 class='text-success'>Your prize money has been sent to ${data[2]} on ${data[0]}(mm/dd/yy) at ${data[1]} </h2>`
+  con.innerHTML=`<h2 class='text-success'>Your prize money has been sent to <span class="text-primary">${data[2]}</span> on <span class='text-primary'>${data[0]}</span>(mm/dd/yy) at <span class='text-primary'>${data[1]}</span> </h2>`
   
   
 }
